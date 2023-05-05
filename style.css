@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center ;
+background-color: rgb(190, 238, 78);
+
+}
+
+.cal{
+    /* border: 1px solid red; */
+    /* border-radius: 10%; */
+    height: 500px;
+    width: 300px;
+    box-shadow: 2px 2px 5px 2px rgba(82, 77, 77, 0.37);
+    overflow: hidden;
+     
+    
+    
+}
+
+.screen{
+    /* border:1px solid brown; */
+
+    width: 100%;
+    height: 200px;
+    
+}
+
+form input{
+    width: 100%;
+    height: 200px;
+    text-align: right;
+    font-size:xx-large;
+    background-color: rgba(0, 0, 0, 0.788);
+    color: aliceblue;
+    }
+
+.function{
+    
+
+    background-color: rgba(0, 0, 0, 0.938);
+    /* border:1px solid brown; */
+    
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 1px; */
+    justify-content: space-between;
+    padding: 2px;
+ 
+}
+
+
+   
+.btn{
+    border-radius: 25%;
+    flex: 0 0 22%;
+    margin: 5px 0;
+    width: 30px;
+    height: 50px;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(5, 5, 4);
+    cursor: pointer;
+}
+
+.operator{
+    background-color: rgb(14, 190, 243);
+}
+.equal{
+    background-color: rgb(21, 201, 21);
+}
+.reset{
+    background-color: rgba(221, 10, 10, 0.76);
+    
+}
+.btn:hover{
+    background-color: rgba(28, 110, 94, 0.555);
+    color: burlywood;
+}
+.operator:hover{
+    background-color: rgba(228, 221, 215, 0.932);
+    color: rgb(45, 165, 75);
+}
+
+
+
+
+
